@@ -1,6 +1,6 @@
 # Componente de tarjeta de vista previa NFT
 
-Esta es una solución al [desafío del componente de tarjeta de vista previa de NFT en Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
+Esta es una solución al [desafío del ---------------------------------------------------- en Frontend Mentor](-------------------------------------------------------).
 
 ## Tabla de contenido
 
@@ -28,14 +28,14 @@ Los usuarios deben ser capaces de:
 
 ### Captura de pantalla
 
-![Vista previa del diseño para el desafío de codificación del componente de la tarjeta de vista previa NFT](./asset/images/vista-previa.png)
+![Vista previa del diseño para el desafío de codificación del ----------------------------](./asset/images/vista-previa.png)
 
 
 
 ### Enlaces
 
-- URL de la solución: [https://github.com/denn-c/WEP-PRINCIPIANTE-tarjeta-de-vista-previa-nft](https://github.com/denn-c/WEP-PRINCIPIANTE-tarjeta-de-vista-previa-nft)
-- URL del sitio en vivo: [https://denn-c.github.io/WEP-PRINCIPIANTE-tarjeta-de-vista-previa-nft/](https://denn-c.github.io/WEP-PRINCIPIANTE-tarjeta-de-vista-previa-nft/)
+- URL de la solución: [--------------------------------------------------------](--------------------------------------------------)
+- URL del sitio en vivo: [----------------------------------------------](--------------------------------------------------)
 
 ## Mi proceso
 
@@ -54,26 +54,11 @@ Fragmentos de código con mayor relevancia en este proyecto.
 **HTML**
 
 ```html
-<section class="main__section">
-  <img
-    src="asset/icon/icon-clock.svg"
-    alt="Imagen de reloj"
-    class="main__clock"
-  />
-  <p class="main__date">Quedan 3 días</p>
-</section>
+-----------------------------------------------
 ```
 **CSS**
 ```css
-
-.main__promo,
-.main__section{
-  display: flex;
-  justify-content: space-between;
-}
-.main__date{
-  color: var(--Soft-blue);
-}
+--------------------------------------------------
 ```
 ### Desarrollo continuo
 
