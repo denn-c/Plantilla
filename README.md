@@ -1,6 +1,6 @@
 # Componente de tarjeta de vista previa NFT
 
-Esta es una solución al [desafío del componente de tarjeta de vista previa de NFT en Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Los desafíos de Frontend Mentor lo ayudan a mejorar sus habilidades de codificación mediante la creación de proyectos realistas.
+Esta es una solución al [desafío del componente de tarjeta de vista previa de NFT en Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
 
 ## Tabla de contenido
 
