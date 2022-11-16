@@ -91,7 +91,6 @@ a{
   justify-content: space-between;
 }
 .main__section{
- /* background-color: aqua; */
  width: 100%;
  justify-content: start;
  align-items: center;
@@ -102,7 +101,6 @@ a{
   margin-left: .5em;
 }
 .main__promo{
-  /* background-color: peru; */
   padding-bottom: 1.2em;
   border-bottom: 1px solid var(--Very-dark-blue-line);
 }
