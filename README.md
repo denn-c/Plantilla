@@ -34,8 +34,8 @@ Los usuarios deben ser capaces de:
 
 ### Enlaces
 
-- URL de la solución: [https://github.com/denn-c/003-tarjeta-de-vista-previa-nft](https://github.com/denn-c/003-tarjeta-de-vista-previa-nft)
-- URL del sitio en vivo: [https://denn-c.github.io/003-tarjeta-de-vista-previa-nft/](https://denn-c.github.io/003-tarjeta-de-vista-previa-nft/)
+- URL de la solución: [https://github.com/denn-c/WEP-PRINCIPIANTE-tarjeta-de-vista-previa-nft](https://github.com/denn-c/WEP-PRINCIPIANTE-tarjeta-de-vista-previa-nft)
+- URL del sitio en vivo: [https://denn-c.github.io/WEP-PRINCIPIANTE-tarjeta-de-vista-previa-nft/](https://denn-c.github.io/WEP-PRINCIPIANTE-tarjeta-de-vista-previa-nft/)
 
 ## Mi proceso
 
@@ -54,187 +54,25 @@ Fragmentos de código con mayor relevancia en este proyecto.
 **HTML**
 
 ```html
-<body>
-    <main class="main">
-      <a href="#" class="main__link">
-        <img
-          src="asset/images/image-equilibrium.jpg"
-          alt="Ilustración de equilibrio"
-          class="main__fondo"
-        />
-        <div class="main__view"></div>
-      </a>
-      <a href="#" class="main__a">
-        <h1 class="main__title">Equilibrium #3429</h1>
-      </a>
-      <p class="main__description">
-        Nuestra colección Equilibrium promueve el equilibrio y la calma.
-      </p>
-      <article class="main__promo">
-        <section class="main__section">
-          <img
-            src="asset/icon/icon-ethereum.svg"
-            alt="Imagen de ethereum"
-            class="main__ethereum"
-          />
-          <p class="main__price">0.041 ETH</p>
-        </section>
-        <section class="main__section">
-          <img
-            src="asset/icon/icon-clock.svg"
-            alt="Imagen de reloj"
-            class="main__clock"
-          />
-          <p class="main__date">Quedan 3 días</p>
-        </section>
-      </article>
-      <footer class="main__footer">
-        <img
-          src="asset/images/image-avatar.png"
-          alt="Imagen del usuario"
-          class="main__user"
-        />
-        <p class="main__name">
-          Creación de <a href="#" class="main__author">Dennys Chuyma</a>
-        </p>
-      </footer>
-    </main>
-  </body>
+<section class="main__section">
+  <img
+    src="asset/icon/icon-clock.svg"
+    alt="Imagen de reloj"
+    class="main__clock"
+  />
+  <p class="main__date">Quedan 3 días</p>
+</section>
 ```
 **CSS**
 ```css
-:root{
-  /* Primary */
---Soft-blue: hsl(215, 51%, 70%);
---Cyan: hsl(178, 100%, 50%);
 
-/* Neutral */
---Very-dark-blue-main: hsl(217, 54%, 11%);
---Very-dark-blue-card: hsl(216, 50%, 16%);
---Very-dark-blue-line: hsl(215, 32%, 27%);
---White: hsl(0, 0%, 100%);
-}
-
-@font-face {
-  font-family: "Outfit Light";
-  src: url(../asset/fonts/Outfit-Light.ttf);
-}
-@font-face {
-  font-family: "Outfit Regular";
-  src: url(../asset/fonts/Outfit-Regular.ttf);
-}
-@font-face {
-  font-family: "Outfit SemiBold";
-  src: url(../asset/fonts/Outfit-SemiBold.ttf);
-}
-*{
-  font-family: "Outfit Light";
-}
-body{
-  background-color: var(--Very-dark-blue-main);
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-a{
-  text-decoration: none;
-}
-
-.main{
-  background-color: var(--Very-dark-blue-card);
-  border-radius: 1em;
-  width: 23em;
-  padding: 1.5em;
-  margin: 1em;
-}
-.main__link{
-  position: relative;
-  display: block;
-}
-
-.main__fondo{
-  border-radius: .5em;
-}
-.main__link:hover > .main__view{
-  width: 100%;
-  height: 100%;
-  display: block;
-  background-image: url(../asset/icon/icon-view.svg);
-  border-radius: .5em;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  top: 0;
-}
-.main__link:hover > .main__view::after{
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(52, 241, 241, 0.5);
-  position: absolute;
-  top: 0;
-  border-radius: .5em;
-} 
-
-.main__title{
-  color: var(--White);
-  font-size: 1.5em;
-  margin: 1em 0;
-}
-.main__title:hover{
-  color: var(--Cyan);
-}
-.main__description{
-  color: var(--Soft-blue);
-  line-height: 1.5em;
-}
 .main__promo,
 .main__section{
   display: flex;
   justify-content: space-between;
 }
-.main__price,
-.main__date{
-  margin: 0;
-  margin-left: .5em;
-}
-.main__promo{
-  padding-bottom: 1.2em;
-  border-bottom: 1px solid var(--Very-dark-blue-line);
-}
-
-.main__price{
-  color: var(--Cyan);
-  font-family: "Outfit SemiBold";
-}
 .main__date{
   color: var(--Soft-blue);
-}
-.main__footer{
-  display: flex;
-  align-items: center;
-  margin: 1em 0 0;
-}
-.main__user{
-  width: 2em;
-  border-radius: 100%;
-  border: 1px solid var(--White);
-}
-.main__name{
-  font-family: "Outfit Regular";
-  margin: 0;
-  margin-left: .5em;
-  color: var(--Soft-blue);
-}
-.main__author{
-  font-family: "Outfit Regular";
-  color: var(--White);
-  margin-left: .3em;
-}
-.main__author:hover{
-  color: var(--Cyan);
 }
 ```
 ### Desarrollo continuo
