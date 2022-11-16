@@ -91,7 +91,7 @@ Fragmentos de código con mayor relevancia en este proyecto.
 ## Autor
 
 - Facebook - [Dennys Chuyma](https://www.facebook.com/dennys.chuyma)
-- Twitter - [@tunombredeusuario](https://www.twitter.com/tunombredeusuario)
+- Twitter - [denn](https://twitter.com/dennyschuyma)
 - Mentor de frontend - [@denn-c](https://www.frontendmentor.io/profile/denn-c)
 
 ## Agradecimientos
